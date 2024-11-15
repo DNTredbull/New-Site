@@ -32,7 +32,7 @@ section{
 }
 .max-width{
     max-width: 1300px;
-    padding: 0 80px;
+    padding: 0 90px;
     margin: auto;
 }
 .about, .services, .skills, .teams, .contact, footer{
@@ -50,9 +50,10 @@ section{
 section .title{
     position: relative;
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 500;
-    margin-bottom: 60px;
+    margin-bottom: 50px;
+    margin-top: 50px;
     padding-bottom: 20px;
     font-family: 'Ubuntu', sans-serif;
 }
@@ -88,7 +89,7 @@ section .title::after{
 }
 .navbar.sticky{
     padding: 15px 0;
-    background: crimson;
+    background: black;
 }
 .navbar .max-width{
     display: flex;
@@ -101,7 +102,7 @@ section .title::after{
     font-weight: 600;
 }
 .navbar .logo a span{
-    color: crimson;
+    color: black;
     transition: all 0.3s ease;
 }
 .navbar.sticky .logo a span{
@@ -120,7 +121,7 @@ section .title::after{
     transition: color 0.3s ease;
 }
 .navbar .menu li a:hover{
-    color: crimson;
+    color: black;
 }
 .navbar.sticky .menu li a:hover{
     color: #fff;
@@ -128,7 +129,7 @@ section .title::after{
 
 /* menu btn styling */
 .menu-btn{
-    color: #fff;
+    color: black;
     font-size: 23px;
     cursor: pointer;
     display: none;
@@ -300,6 +301,10 @@ section .title::after{
 }
 .gallery{
   position: relative;
+  margin-left: 35%;
+  margin-right: 25%;
+  margin-top: 15%;
+  margin-bottom: 30%;
   width:300px;
   height:300px;
   transform-style:preserve-3d;
@@ -405,9 +410,7 @@ section .title::after{
   object-fit: fill;
 }
 /* teams section styling */
-.teams .title::after{
-    content: "Very cool";
-}
+
 .teams .carousel .card{
     background: #222;
     text-align: center;
@@ -462,6 +465,7 @@ section .title::after{
 .owl-dot:hover{
     background: crimson!important;
 }
+
 
 /* contact section styling */
 .contact .title::after{
